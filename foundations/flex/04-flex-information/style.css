@@ -8,8 +8,10 @@ img {
 }
 
 .title {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 900;
+  width:fit-content;
+  margin-right:auto ; margin-left: auto;
 }
 
 /* do not edit this footer */
@@ -23,4 +25,26 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.unit {
+  display:flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin:0px 52px;
+  flex-wrap:wrap;
+}
+
+.container {
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.container .unit {
+  flex:auto;
+}
+
+.text {
+  max-width: 200px;
 }
